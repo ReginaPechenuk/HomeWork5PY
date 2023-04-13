@@ -13,4 +13,5 @@ def degree(a,b):
         return a
     return a*degree(a,b-1)
     
+print()
 print(degree(a,b))
